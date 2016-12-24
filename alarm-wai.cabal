@@ -21,3 +21,5 @@ executable alarm-wai
                         ,wai
                         ,warp
                         ,http-types
+                        ,bytestring
+                        ,process
