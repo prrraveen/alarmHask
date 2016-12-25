@@ -15,10 +15,12 @@ main = do
     run 8080 app
 
 app :: Application
-app request respond = respond $ case rawPathInfo request of
-    "/" -> indexHtml 
-    "/wake" -> wakeMeUP request
-    _ -> fourNotFour
+app request respond = do
+    response <- case rawPathInfo request of
+                    "/" -> return indexHtml 
+                    "/wake" -> wakeMeUP request
+                    _ -> return fourNotFour
+    respond response
 
 indexHtml :: Response
 indexHtml = responseFile
@@ -27,13 +29,12 @@ indexHtml = responseFile
     "index.html"
     Nothing
 
-wakeMeUP :: Request -> Response
-wakeMeUP request = 
+wakeMeUP :: Request -> IO Response
+wakeMeUP request = do 
     let query = queryString request
-        hour = join $ lookup "hour" query
-        min = join $ lookup "min" query
- 
-    in responseLBS
+    let hour = join $ lookup "hour" query
+    runCommand "ls"
+    return $ responseLBS
         status200
         [("Content-Type","text/plain")]
         "Alarm set at...to be coded later"
