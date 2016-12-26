@@ -1,0 +1,28 @@
+[1 of 1] Compiling Main             ( /tmp/stack6440/interpolatedstring-perl6-1.0.0/Setup.hs, /tmp/stack6440/interpolatedstring-perl6-1.0.0/.stack-work/dist/x86_64-linux/Cabal-1.24.0.0/setup/Main.o )
+
+/tmp/stack6440/interpolatedstring-perl6-1.0.0/Setup.hs:2:1: warning: [-Wdeprecations]
+    Module ‘System.Cmd’ is deprecated: Use "System.Process" instead
+
+/tmp/stack6440/interpolatedstring-perl6-1.0.0/Setup.hs:4:49: warning: [-Wdeprecations]
+    In the use of ‘runTests’
+    (imported from Distribution.Simple, but defined in Distribution.Simple.UserHooks):
+    Deprecated: "Please use the new testing interface instead!"
+Linking /tmp/stack6440/interpolatedstring-perl6-1.0.0/.stack-work/dist/x86_64-linux/Cabal-1.24.0.0/setup/setup ...
+Configuring interpolatedstring-perl6-1.0.0...
+Building interpolatedstring-perl6-1.0.0...
+Preprocessing library interpolatedstring-perl6-1.0.0...
+
+on the commandline: warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+
+src/Text/InterpolatedString/Perl6.hs:2:25: warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[1 of 1] Compiling Text.InterpolatedString.Perl6 ( src/Text/InterpolatedString/Perl6.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.0.0/build/Text/InterpolatedString/Perl6.o )
+
+src/Text/InterpolatedString/Perl6.hs:245:20: warning: [-Wdeprecations]
+    In the use of ‘report’
+    (imported from Language.Haskell.TH, but defined in Language.Haskell.TH.Syntax):
+    Deprecated: "Use reportError or reportWarning instead"
+Installing library in
+/home/praveen/.stack/snapshots/x86_64-linux/lts-7.13/8.0.1/lib/x86_64-linux-ghc-8.0.1/interpolatedstring-perl6-1.0.0-7GwaZBqJ8x2S140XxmUmL
+Registering interpolatedstring-perl6-1.0.0...

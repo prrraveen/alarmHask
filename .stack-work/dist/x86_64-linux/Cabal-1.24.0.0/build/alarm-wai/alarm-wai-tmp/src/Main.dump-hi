@@ -1,0 +1,851 @@
+
+==================== FINAL INTERFACE ====================
+2016-12-26 11:26:31.418739 UTC
+
+interface main@main:Main 8001
+  interface hash: 2f6ed5f988132c5e329665b9970505b7
+  ABI hash: ee353ac010abee0e9fa2c1bcf909ed4a
+  export-list hash: 214c37bb6f4138d87b9b2a6bde86710c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 6c593695c43e3e5770c125f926e52566
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Main.app
+  Main.fourNotFour
+  Main.indexHtml
+  Main.job
+  Main.main
+  Main.stop
+  Main.wakeMeUP
+  Main.Hour
+  Main.Minute
+module dependencies:
+package dependencies: appar-0.1.4@appar-0.1.4-1in4Ewd8JBkAYDZSWXLSe0
+                      array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1@async-2.1.1-xFiBzw9xoB8HPZAuxUY2o
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-5Olk1S76r1CDYzFS6V3sZR
+                      auto-update-0.1.4@auto-update-0.1.4-GAesfFmqoZzBz6e09kRyzb
+                      base-4.9.0.0 binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-KWDLbdBYSBoALiMW0LHIz1
+                      byteorder-1.0.4@byteorder-1.0.4-BbL4c17EpZrL9PcZm0xys9
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      case-insensitive-1.2.0.7@case-insensitive-1.2.0.7-FlqweN7AuKj9EdU2arVEt4
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.2.6.2@directory-1.2.6.2
+                      filepath-1.4.1.0@filepath-1.4.1.0
+                      ghc-boot-th-8.0.1@ghc-boot-th-8.0.1 ghc-prim-0.5.0.0
+                      hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G
+                      haskell-src-exts-1.17.1@haskell-src-exts-1.17.1-CHFwoWxepXQKBbAz4YNlQX
+                      haskell-src-meta-0.6.0.14@haskell-src-meta-0.6.0.14-43poBlKd8PmErlmsiBNqPs
+                      http-date-0.0.6.1@http-date-0.0.6.1-150spKQYCuoIrltdbMmYGs
+                      http-types-0.9.1@http-types-0.9.1-8WdUZL4twHzANJbxvb1Aoj
+                      http2-1.6.2@http2-1.6.2-8AbNCX9FS8K1gUe78Emp1g integer-gmp-1.0.0.1
+                      interpolatedstring-perl6-1.0.0@interpolatedstring-perl6-1.0.0-7GwaZBqJ8x2S140XxmUmL
+                      iproute-1.7.1@iproute-1.7.1-9hsGfRvggCmFA0ueZi5Sd9
+                      network-2.6.3.1@network-2.6.3.1-G4Up1CPKbp7DeFsnywOnGG
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa
+                      process-1.4.2.0@process-1.4.2.0
+                      psqueues-0.2.2.3@psqueues-0.2.2.3-YN2xKllZOMJLtAgRHlkEw
+                      random-1.1@random-1.1-54KmMHXjttlERYcr1mvsAe
+                      scientific-0.3.4.9@scientific-0.3.4.9-6oTYuCcx6H5BsTGU7D2Gk3
+                      simple-sendfile-0.2.25@simple-sendfile-0.2.25-FZS0Stqtwd5AOyFRQgM4IV
+                      stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF
+                      streaming-commons-0.1.16@streaming-commons-0.1.16-KtRawhq8O97EWCabefpk66
+                      template-haskell-2.11.0.0
+                      text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s
+                      time-1.6.0.1@time-1.6.0.1 transformers-0.5.2.0@transformers-0.5.2.0
+                      unix-2.7.2.0@unix-2.7.2.0
+                      unix-compat-0.4.3.1@unix-compat-0.4.3.1-GamCWWfiT0318wIeUlpE1K
+                      unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-Eo9jd5DMz45DhBLCG8skzW
+                      vault-0.3.0.6@vault-0.3.0.6-CA9Xj82tAPe9nD32xVMgDG
+                      vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6
+                      wai-3.2.1.1@wai-3.2.1.1-f77bMYZGLQBAD3XJrvGiW
+                      warp-3.2.9@warp-3.2.9-1srGDEsq7RWF9RsucFj6bw
+                      word8-0.1.2@word8-0.1.2-2E1SgvvAV2fK8vZPDHbRan
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-5Olk1S76r1CDYzFS6V3sZR:Data.Attoparsec.ByteString.Char8
+         base-4.9.0.0:GHC.Base base-4.9.0.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.4.0@hashable-1.2.4.0-EMu4H7FB10MAl6hwKw992G:Data.Hashable.Generic
+         haskell-src-exts-1.17.1@haskell-src-exts-1.17.1-CHFwoWxepXQKBbAz4YNlQX:Language.Haskell.Exts.Annotated.Parser
+         haskell-src-exts-1.17.1@haskell-src-exts-1.17.1-CHFwoWxepXQKBbAz4YNlQX:Language.Haskell.Exts.Parser
+         network-2.6.3.1@network-2.6.3.1-G4Up1CPKbp7DeFsnywOnGG:Network.Socket
+         stm-2.4.4.1@stm-2.4.4.1-4z2NRWnB0NIIUvSJsHW0kF:Control.Monad.STM
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector.Fusion.Bundle
+family instance modules: attoparsec-0.13.1.0@attoparsec-0.13.1.0-5Olk1S76r1CDYzFS6V3sZR:Data.Attoparsec.Internal.Types
+                         base-4.9.0.0:Control.Applicative base-4.9.0.0:Data.Complex
+                         base-4.9.0.0:Data.Either base-4.9.0.0:Data.Functor.Const
+                         base-4.9.0.0:Data.Functor.Identity base-4.9.0.0:Data.List.NonEmpty
+                         base-4.9.0.0:Data.Monoid base-4.9.0.0:Data.Semigroup
+                         base-4.9.0.0:Data.Type.Equality base-4.9.0.0:Data.Version
+                         base-4.9.0.0:Data.Void base-4.9.0.0:GHC.Exts
+                         base-4.9.0.0:GHC.Generics base-4.9.0.0:GHC.IO.Exception
+                         base-4.9.0.0:GHC.TypeLits
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         ghc-boot-th-8.0.1@ghc-boot-th-8.0.1:GHC.LanguageExtensions.Type
+                         haskell-src-exts-1.17.1@haskell-src-exts-1.17.1-CHFwoWxepXQKBbAz4YNlQX:Language.Haskell.Exts.Annotated.Syntax
+                         haskell-src-exts-1.17.1@haskell-src-exts-1.17.1-CHFwoWxepXQKBbAz4YNlQX:Language.Haskell.Exts.SrcLoc
+                         haskell-src-exts-1.17.1@haskell-src-exts-1.17.1-CHFwoWxepXQKBbAz4YNlQX:Language.Haskell.Exts.Syntax
+                         iproute-1.7.1@iproute-1.7.1-9hsGfRvggCmFA0ueZi5Sd9:Data.IP.Addr
+                         iproute-1.7.1@iproute-1.7.1-9hsGfRvggCmFA0ueZi5Sd9:Data.IP.Range
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.1.0@primitive-0.6.1.0-Ip44DqhfCp21tTUYbecwa:Control.Monad.Primitive
+                         template-haskell-2.11.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text
+                         text-1.2.2.1@text-1.2.2.1-5QpmrLQApEZ4Ly9nMHWY0s:Data.Text.Lazy
+                         unordered-containers-0.2.7.1@unordered-containers-0.2.7.1-Eo9jd5DMz45DhBLCG8skzW:Data.HashMap.Base
+                         vector-0.11.0.0@vector-0.11.0.0-BEDZb5o2QOhGbIm6ky7rl6:Data.Vector
+import  -/  base-4.9.0.0:Control.Monad 7767aebfd53f0b584cef2fe66ad3986c
+import  -/  base-4.9.0.0:Data.String 69bb34ee5f2f4d95a41479e62b8fdc61
+import  -/  base-4.9.0.0:GHC.Base 8ed3be81c0707b322f975a84ae1bb816
+import  -/  base-4.9.0.0:GHC.List 13d2451194c1c6e53b4f4f07947736dd
+import  -/  base-4.9.0.0:Prelude b9bddb97799837fe67a8d00939a5b6c3
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString 870c31f42ec324353c13bc791ac05fc3
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Internal 1a31a1f30d9522329d9076dffd947c78
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Lazy.Char8 f4819b93bd0fe1027ffb583dfa404852
+import  -/  ghc-prim-0.5.0.0:GHC.Types 7378e41b7749213c8c88ceb6b0665d4c
+import  -/  http-types-0.9.1@http-types-0.9.1-8WdUZL4twHzANJbxvb1Aoj:Network.HTTP.Types f70774289bf405c11021ae77225b952a
+import  -/  http-types-0.9.1@http-types-0.9.1-8WdUZL4twHzANJbxvb1Aoj:Network.HTTP.Types.Status 35195e448f2d9cabe4b416fff482e5fb
+import  -/  interpolatedstring-perl6-1.0.0@interpolatedstring-perl6-1.0.0-7GwaZBqJ8x2S140XxmUmL:Text.InterpolatedString.Perl6 e402aa7508b0307c9aebc8d1640a7f1a
+import  -/  process-1.4.2.0@process-1.4.2.0:System.Process 88e103887120761eec14b4182c67df9c
+import  -/  wai-3.2.1.1@wai-3.2.1.1-f77bMYZGLQBAD3XJrvGiW:Network.Wai f10fb472d685284a8637bf34e58bc7f2
+import  -/  wai-3.2.1.1@wai-3.2.1.1-f77bMYZGLQBAD3XJrvGiW:Network.Wai.Internal f27d53fc30ea41b04db63492b5b558a8
+import  -/  warp-3.2.9@warp-3.2.9-1srGDEsq7RWF9RsucFj6bw:Network.Wai.Handler.Warp 3da15d24b266d35965cd5350be944ee3
+import  -/  warp-3.2.9@warp-3.2.9-1srGDEsq7RWF9RsucFj6bw:Network.Wai.Handler.Warp.Run ef3cbc0ed9598c9652e6b6b9671eb6f3
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+94ecd159d722fb28aa75f93e64ea6403
+  $wapp ::
+    GHC.Prim.Addr#
+    -> GHC.ForeignPtr.ForeignPtrContents
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> Network.HTTP.Types.URI.Query
+    -> (Network.Wai.Internal.Response
+        -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Network.Wai.Internal.ResponseReceived #)
+  {- Arity: 7,
+     Strictness: <L,U><L,U><L,U><S,U><L,1*U><L,1*C1(C1(U(U,U)))><S,U>,
+     Inline: [0] -}
+7c4e55de56e313a4c0d3cd414cb2edd3
+  type Hour = GHC.Base.Maybe Data.ByteString.Internal.ByteString
+7df0d9111a61285e770aa81781a7e95b
+  type Minute = GHC.Base.Maybe Data.ByteString.Internal.ByteString
+a727940c9db91cde4f09179111592514
+  app :: Network.Wai.Application
+  {- Arity: 3,
+     Strictness: <S(LLS(LLLS)LLLLLLLLLLLLL),1*U(A,A,1*U(U,U,U,U),A,A,A,A,A,1*U,A,A,A,A,A,A,A)><L,1*C1(C1(U(U,U)))><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.app1
+                  `cast`
+                (<Network.Wai.Internal.Request>_R
+                 ->_R <Network.Wai.Internal.Response
+                       -> GHC.Types.IO Network.Wai.Internal.ResponseReceived>_R
+                 ->_R Sym (GHC.Types.N:IO[0]
+                               <Network.Wai.Internal.ResponseReceived>_R)) -}
+cc1f865c07910776e9dc1233e0cd78e2
+  app1 ::
+    Network.Wai.Internal.Request
+    -> (Network.Wai.Internal.Response
+        -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Network.Wai.Internal.ResponseReceived #)
+  {- Arity: 3,
+     Strictness: <S(LLS(LLLS)LLLLLLLLLLLLL),1*U(A,A,1*U(U,U,U,U),A,A,A,A,A,1*U,A,A,A,A,A,A,A)><L,1*C1(C1(U(U,U)))><S,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: Network.Wai.Internal.Request)
+                   (w1 :: Network.Wai.Internal.Response
+                          -> GHC.Types.IO Network.Wai.Internal.ResponseReceived)
+                   (w2 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case w of ww { Network.Wai.Internal.Request ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ->
+                 case ww3 of ww17 { Data.ByteString.Internal.PS ww18 ww19 ww20 ww21 ->
+                 Main.$wapp ww18 ww19 ww20 ww21 ww9 w1 w2 } }) -}
+d4db7ec5b196f777a7ccadfec0e290f7
+  fourNotFour :: Network.Wai.Internal.Response
+  {- Strictness: m2,
+     Unfolding: (Network.Wai.Internal.ResponseBuilder
+                   Network.HTTP.Types.Status.status404
+                   Main.fourNotFour4
+                   Main.fourNotFour1
+                     `cast`
+                   (Trans
+                        (forall (r :: <*>_N).
+                         <Data.ByteString.Builder.Internal.BuildStep r>_R
+                         ->_R <Data.ByteString.Builder.Internal.BufferRange>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Data.ByteString.Builder.Internal.BuildSignal r>_R))
+                        (Sym (Data.ByteString.Builder.Internal.N:Builder[0])))) -}
+c52fc45e18a1a3036541ab88ac8628ac
+  fourNotFour1 ::
+    Data.ByteString.Builder.Internal.BuildStep r
+    -> Data.ByteString.Builder.Internal.BufferRange
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.ByteString.Builder.Internal.BuildSignal r #)
+  {- Arity: 3,
+     Unfolding: (Network.Wai.responseLBS1 Main.fourNotFour2) -}
+52bff3fd0c8a73b7584d4f62589eb63e
+  fourNotFour2 :: Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (Data.ByteString.Lazy.Internal.$wpackChunks1
+                   32#
+                   Main.fourNotFour3) -}
+6b6f294d993099b80f70f9ac766a367e
+  fourNotFour3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "404 not found"#) -}
+b886575d474294b2a4b7209a1ae54fc3
+  fourNotFour4 :: [Network.HTTP.Types.Header.Header]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Header.Header
+                   Main.fourNotFour5
+                   (GHC.Types.[] @ Network.HTTP.Types.Header.Header)) -}
+b2300b1cf018da4ca5d0495c358ae776
+  fourNotFour5 ::
+    (Network.HTTP.Types.Header.HeaderName,
+     Data.ByteString.Internal.ByteString)
+  {- Strictness: m,
+     Unfolding: ((Main.fourNotFour7, Main.fourNotFour6)) -}
+772338c5f5ac5b4646650ade3305e26d
+  fourNotFour6 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "text/plain"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0#
+                   (GHC.Prim.word2Int# ds23) } }) -}
+5b91fe35302c3e7b54e27d9ca3926764
+  fourNotFour7 :: Network.HTTP.Types.Header.HeaderName
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "Content-Type"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 let {
+                   ipv2 :: GHC.ForeignPtr.ForeignPtrContents
+                   = GHC.ForeignPtr.PlainForeignPtr ipv1
+                 } in
+                 let {
+                   ipv3 :: GHC.Prim.Int# = GHC.Prim.word2Int# ds23
+                 } in
+                 case Data.CaseInsensitive.Internal.$wfoldCaseBS
+                        addr#
+                        ipv2
+                        0#
+                        ipv3 of dt1 { Data.ByteString.Internal.PS ipv4 ipv5 ipv6 ipv7 ->
+                 Data.CaseInsensitive.Internal.CI
+                   @ Data.ByteString.Internal.ByteString
+                   (Data.ByteString.Internal.PS addr# ipv2 0# ipv3)
+                   dt1 } } }) -}
+adce948c9b48aeefbe7671aeec37535b
+  indexHtml :: Network.Wai.Internal.Response
+  {- Strictness: m1,
+     Unfolding: (Network.Wai.Internal.ResponseFile
+                   Network.HTTP.Types.Status.status200
+                   Main.indexHtml2
+                   Main.indexHtml1
+                   (GHC.Base.Nothing @ Network.Wai.Internal.FilePart)) -}
+5c0a653a5dbee8d14baa2abf639a5896
+  indexHtml1 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "index.html"#) -}
+d9b1f30a5745d0963c27e9ba98f3b254
+  indexHtml2 :: [Network.HTTP.Types.Header.Header]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Header.Header
+                   Main.indexHtml3
+                   (GHC.Types.[] @ Network.HTTP.Types.Header.Header)) -}
+35f96d16a06ae794a5417619e5b18358
+  indexHtml3 ::
+    (Network.HTTP.Types.Header.HeaderName,
+     Data.ByteString.Internal.ByteString)
+  {- Strictness: m,
+     Unfolding: ((Main.indexHtml5, Main.indexHtml4)) -}
+c38899c03851d9bc47c83e2e6a1c2e29
+  indexHtml4 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "text/html"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0#
+                   (GHC.Prim.word2Int# ds23) } }) -}
+ede83159cd09dcd7081e04a88766abd4
+  indexHtml5 :: Network.HTTP.Types.Header.HeaderName
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "Content-Type"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 let {
+                   ipv2 :: GHC.ForeignPtr.ForeignPtrContents
+                   = GHC.ForeignPtr.PlainForeignPtr ipv1
+                 } in
+                 let {
+                   ipv3 :: GHC.Prim.Int# = GHC.Prim.word2Int# ds23
+                 } in
+                 case Data.CaseInsensitive.Internal.$wfoldCaseBS
+                        addr#
+                        ipv2
+                        0#
+                        ipv3 of dt1 { Data.ByteString.Internal.PS ipv4 ipv5 ipv6 ipv7 ->
+                 Data.CaseInsensitive.Internal.CI
+                   @ Data.ByteString.Internal.ByteString
+                   (Data.ByteString.Internal.PS addr# ipv2 0# ipv3)
+                   dt1 } } }) -}
+f0005bb0634a5309c25ea37d4402be06
+  job :: Main.Hour -> Main.Minute -> GHC.Base.String
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>,
+     Unfolding: (\ (ds :: GHC.Base.Maybe
+                            Data.ByteString.Internal.ByteString)
+                   (ds22 :: Main.Minute) ->
+                 case ds of wild {
+                   GHC.Base.Nothing -> Main.job5
+                   GHC.Base.Just hr
+                   -> case ds22 of wild1 {
+                        GHC.Base.Nothing
+                        -> GHC.Base.++
+                             @ GHC.Types.Char
+                             Main.job4
+                             (case hr of ww { Data.ByteString.Internal.PS ww1 ww2 ww3 ww4 ->
+                              GHC.Base.++
+                                @ GHC.Types.Char
+                                (Data.ByteString.Internal.$wunpackAppendCharsLazy
+                                   ww1
+                                   ww2
+                                   ww3
+                                   ww4
+                                   (GHC.Types.[] @ GHC.Types.Char))
+                                Main.job3 })
+                        GHC.Base.Just min
+                        -> GHC.Base.++
+                             @ GHC.Types.Char
+                             Main.job2
+                             (case min of ww { Data.ByteString.Internal.PS ww1 ww2 ww3 ww4 ->
+                              GHC.Base.++
+                                @ GHC.Types.Char
+                                (Data.ByteString.Internal.$wunpackAppendCharsLazy
+                                   ww1
+                                   ww2
+                                   ww3
+                                   ww4
+                                   (GHC.Types.[] @ GHC.Types.Char))
+                                (GHC.Base.++
+                                   @ GHC.Types.Char
+                                   Main.job1
+                                   (case hr of ww7 { Data.ByteString.Internal.PS ww8 ww9 ww10 ww11 ->
+                                    GHC.Base.++
+                                      @ GHC.Types.Char
+                                      (Data.ByteString.Internal.$wunpackAppendCharsLazy
+                                         ww8
+                                         ww9
+                                         ww10
+                                         ww11
+                                         (GHC.Types.[] @ GHC.Types.Char))
+                                      Main.job3 })) }) } }) -}
+f84a9bf5af8ff73ca74fa53651e6bc73
+  job1 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# " "#) -}
+88e441468040eb1212ac307ae4402c7e
+  job2 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# " echo \""#) -}
+8eb1164ae348b461d41c018f38b4eb99
+  job3 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString#
+                   " * * * /usr/bin/mpc play\" | crontab - "#) -}
+049ee6a1f733aae4ab0d87b85f7eb238
+  job4 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString# " echo \"* "#) -}
+66777648987d955647a6a683d6d2cc43
+  job5 :: GHC.Base.String
+  {- Unfolding: (GHC.CString.unpackCString#
+                   " echo \"didn't get hour \"  "#) -}
+3a76179fa4673454111babd1c3c75e1a
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+89bdee1b92315e752f8c44a091c9a74c
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta1 :: GHC.Prim.State#
+                              GHC.Prim.RealWorld)[OneShot] ->
+                 Network.Wai.Handler.Warp.Run.$wrunSettings
+                   Main.main2
+                   Network.Wai.Handler.Warp.Settings.defaultSettings16
+                   Network.Wai.Handler.Warp.Settings.defaultOnException1
+                     `cast`
+                   (<GHC.Base.Maybe Network.Wai.Internal.Request>_R
+                    ->_R <GHC.Exception.SomeException>_R
+                    ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                   Network.Wai.Handler.Warp.Settings.defaultOnExceptionResponse
+                   Network.Wai.Handler.Warp.Settings.defaultSettings14
+                     `cast`
+                   (<Network.Socket.Types.SockAddr>_R
+                    ->_R Sym (GHC.Types.N:IO[0] <GHC.Types.Bool>_R))
+                   Network.Wai.Handler.Warp.Settings.defaultSettings13
+                     `cast`
+                   (<Network.Socket.Types.SockAddr>_R
+                    ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                   Network.Wai.Handler.Warp.Settings.defaultSettings12
+                   (GHC.Base.Nothing @ Network.Wai.Handler.Warp.Timeout.Manager)
+                   Network.Wai.Handler.Warp.Settings.defaultSettings11
+                   Network.Wai.Handler.Warp.Settings.defaultSettings11
+                   Network.Wai.Handler.Warp.Settings.defaultSettings9
+                     `cast`
+                   (Sym (GHC.Types.N:IO[0] <()>_R))
+                   Network.Wai.Handler.Warp.Settings.defaultSettings10
+                     `cast`
+                   (<(forall a. GHC.Types.IO a -> GHC.Types.IO a)
+                     -> GHC.Types.IO ()>_R
+                    ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                   GHC.Types.False
+                   Network.Wai.Handler.Warp.Settings.defaultSettings8
+                     `cast`
+                   (<GHC.Types.IO ()>_R ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                   Network.Wai.Handler.Warp.Settings.defaultSettings6
+                   Network.Wai.Handler.Warp.Settings.defaultSettings4
+                   Network.Wai.Handler.Warp.Settings.ProxyProtocolNone
+                   Network.Wai.Handler.Warp.Settings.defaultSettings3
+                   GHC.Types.True
+                   Network.Wai.Handler.Warp.Settings.defaultSettings2
+                     `cast`
+                   (<Network.Wai.Internal.Request>_R
+                    ->_R <Network.HTTP.Types.Status.Status>_R
+                    ->_R <GHC.Base.Maybe GHC.Integer.Type.Integer>_R
+                    ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                   Network.Wai.Handler.Warp.Settings.defaultSettings1
+                     `cast`
+                   (<Network.Wai.Internal.Request>_R
+                    ->_R <Data.ByteString.Internal.ByteString>_R
+                    ->_R <GHC.Integer.Type.Integer>_R
+                    ->_R Sym (GHC.Types.N:IO[0] <()>_R))
+                   (GHC.Base.Nothing @ GHC.Types.Int)
+                   Main.app1
+                     `cast`
+                   (<Network.Wai.Internal.Request>_R
+                    ->_R <Network.Wai.Internal.Response
+                          -> GHC.Types.IO Network.Wai.Internal.ResponseReceived>_R
+                    ->_R Sym (GHC.Types.N:IO[0]
+                                  <Network.Wai.Internal.ResponseReceived>_R))
+                   eta1) -}
+2d7fea50f5b65548d985c5e8e6e8a9b3
+  main2 :: GHC.Types.Int
+  {- HasNoCafRefs, Unfolding: (GHC.Types.I# 8080#) -}
+f0eb3855dbcc180febb6792d27e697b5
+  main3 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+a0caa4526b8027ba14dcc002775232f1
+  stop :: GHC.Types.IO Network.Wai.Internal.Response
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.stop1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <Network.Wai.Internal.Response>_R)) -}
+b76fb288551c0b75a4b2aa207cdaf250
+  stop1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Network.Wai.Internal.Response #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case System.Process.runCommand1
+                        Main.stop10
+                        s of ds22 { (#,#) ipv ipv1 ->
+                 (# ipv, Main.stop2 #) }) -}
+9243f65d2c70ef38b9bbf77e4f5521de
+  stop10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "mpc stop"#) -}
+116ab9b2ea623324448a66cc8b1ade09
+  stop2 :: Network.Wai.Internal.Response
+  {- Unfolding: (Network.Wai.Internal.ResponseBuilder
+                   Network.HTTP.Types.Status.status200
+                   Main.stop6
+                   Main.stop3
+                     `cast`
+                   (Trans
+                        (forall (r :: <*>_N).
+                         <Data.ByteString.Builder.Internal.BuildStep r>_R
+                         ->_R <Data.ByteString.Builder.Internal.BufferRange>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Data.ByteString.Builder.Internal.BuildSignal r>_R))
+                        (Sym (Data.ByteString.Builder.Internal.N:Builder[0])))) -}
+3f79c76fe0ea4970c31bc5b0833220ca
+  stop3 ::
+    Data.ByteString.Builder.Internal.BuildStep r
+    -> Data.ByteString.Builder.Internal.BufferRange
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.ByteString.Builder.Internal.BuildSignal r #)
+  {- Arity: 3, Unfolding: (Network.Wai.responseLBS1 Main.stop4) -}
+17dda9f4914799aebd6bfa3c2bd9b2c9
+  stop4 :: Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (Data.ByteString.Lazy.Internal.$wpackChunks1
+                   32#
+                   Main.stop5) -}
+9f1b2afb56b0435dfd75b2ce5930365a
+  stop5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "alarm stoped"#) -}
+3111456992ea18761d2a3a72738763fb
+  stop6 :: [Network.HTTP.Types.Header.Header]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Header.Header
+                   Main.stop7
+                   (GHC.Types.[] @ Network.HTTP.Types.Header.Header)) -}
+d152206d40f43dd0051aa3e3205734de
+  stop7 ::
+    (Network.HTTP.Types.Header.HeaderName,
+     Data.ByteString.Internal.ByteString)
+  {- Unfolding: ((Main.stop9, Main.stop8)) -}
+ca2dcd2aff154c2399e8e944c9a5c277
+  stop8 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "text/plain"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0#
+                   (GHC.Prim.word2Int# ds23) } }) -}
+db7a4d685860b7065e8e5250eebe539a
+  stop9 :: Network.HTTP.Types.Header.HeaderName
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "Content-Type"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 let {
+                   ipv2 :: GHC.ForeignPtr.ForeignPtrContents
+                   = GHC.ForeignPtr.PlainForeignPtr ipv1
+                 } in
+                 let {
+                   ipv3 :: GHC.Prim.Int# = GHC.Prim.word2Int# ds23
+                 } in
+                 case Data.CaseInsensitive.Internal.$wfoldCaseBS
+                        addr#
+                        ipv2
+                        0#
+                        ipv3 of dt1 { Data.ByteString.Internal.PS ipv4 ipv5 ipv6 ipv7 ->
+                 Data.CaseInsensitive.Internal.CI
+                   @ Data.ByteString.Internal.ByteString
+                   (Data.ByteString.Internal.PS addr# ipv2 0# ipv3)
+                   dt1 } } }) -}
+58e92a0c5f5b34e4b5df8dd557a34660
+  wakeMeUP ::
+    Network.Wai.Internal.Request
+    -> GHC.Types.IO Network.Wai.Internal.Response
+  {- Arity: 2,
+     Strictness: <L,1*U(A,A,A,A,A,A,A,A,1*U,A,A,A,A,A,A,A)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.wakeMeUP1
+                  `cast`
+                (<Network.Wai.Internal.Request>_R
+                 ->_R Sym (GHC.Types.N:IO[0] <Network.Wai.Internal.Response>_R)) -}
+2e173e0d41cd2b14d6fa0ecd12e39048
+  wakeMeUP1 ::
+    Network.Wai.Internal.Request
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Network.Wai.Internal.Response #)
+  {- Arity: 2,
+     Strictness: <L,1*U(A,A,A,A,A,A,A,A,1*U,A,A,A,A,A,A,A)><S,U>,
+     Unfolding: (\ (request :: Network.Wai.Internal.Request)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case System.Process.runCommand1
+                        (case request of wild { Network.Wai.Internal.Request ds22 ds23 ds3 ds24 ds25 ds6 ds26 ds27 ds9 ds28 ds29 ds30 ds31 ds32 ds33 ds34 ->
+                         case GHC.List.lookup
+                                @ Data.ByteString.Internal.ByteString
+                                @ (GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                                Data.ByteString.Internal.$fEqByteString
+                                Main.wakeMeUP11
+                                ds9 of wild1 {
+                           GHC.Base.Nothing
+                           -> Main.job
+                                (GHC.Base.Nothing @ Data.ByteString.Internal.ByteString)
+                                (case GHC.List.lookup
+                                        @ Data.ByteString.Internal.ByteString
+                                        @ (GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                                        Data.ByteString.Internal.$fEqByteString
+                                        Main.wakeMeUP10
+                                        ds9 of wild2 {
+                                   GHC.Base.Nothing
+                                   -> GHC.Base.Nothing @ Data.ByteString.Internal.ByteString
+                                   GHC.Base.Just x -> x })
+                           GHC.Base.Just x
+                           -> Main.job
+                                x
+                                (case GHC.List.lookup
+                                        @ Data.ByteString.Internal.ByteString
+                                        @ (GHC.Base.Maybe Data.ByteString.Internal.ByteString)
+                                        Data.ByteString.Internal.$fEqByteString
+                                        Main.wakeMeUP10
+                                        ds9 of wild2 {
+                                   GHC.Base.Nothing
+                                   -> GHC.Base.Nothing @ Data.ByteString.Internal.ByteString
+                                   GHC.Base.Just x1 -> x1 }) } })
+                        eta of ds22 { (#,#) ipv ipv1 ->
+                 (# ipv, Main.wakeMeUP2 #) }) -}
+cf10b1471d7827ed30056c0e8461705d
+  wakeMeUP10 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "min"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0#
+                   (GHC.Prim.word2Int# ds23) } }) -}
+47c9cd382a965952ea54fa60b42ac8a0
+  wakeMeUP11 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "hour"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0#
+                   (GHC.Prim.word2Int# ds23) } }) -}
+b0f7c056fc381e43ed4fef6a58e21540
+  wakeMeUP2 :: Network.Wai.Internal.Response
+  {- Unfolding: (Network.Wai.Internal.ResponseBuilder
+                   Network.HTTP.Types.Status.status200
+                   Main.wakeMeUP6
+                   Main.wakeMeUP3
+                     `cast`
+                   (Trans
+                        (forall (r :: <*>_N).
+                         <Data.ByteString.Builder.Internal.BuildStep r>_R
+                         ->_R <Data.ByteString.Builder.Internal.BufferRange>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Data.ByteString.Builder.Internal.BuildSignal r>_R))
+                        (Sym (Data.ByteString.Builder.Internal.N:Builder[0])))) -}
+7f499f049601c0bdab567d6700962769
+  wakeMeUP3 ::
+    Data.ByteString.Builder.Internal.BuildStep r
+    -> Data.ByteString.Builder.Internal.BufferRange
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.ByteString.Builder.Internal.BuildSignal r #)
+  {- Arity: 3,
+     Unfolding: (Network.Wai.responseLBS1 Main.wakeMeUP4) -}
+9e9ab51ffdec2c46d8736b933c5db9df
+  wakeMeUP4 :: Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (Data.ByteString.Lazy.Internal.$wpackChunks1
+                   32#
+                   Main.wakeMeUP5) -}
+da6164717d19283433dfef6d66d1bce3
+  wakeMeUP5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Alarm set at...to be coded later"#) -}
+fed6872b9deea50204eb55cb20607b6f
+  wakeMeUP6 :: [Network.HTTP.Types.Header.Header]
+  {- Unfolding: (GHC.Types.:
+                   @ Network.HTTP.Types.Header.Header
+                   Main.wakeMeUP7
+                   (GHC.Types.[] @ Network.HTTP.Types.Header.Header)) -}
+3b6b0ca9a69af2fc9bf086a58f257c46
+  wakeMeUP7 ::
+    (Network.HTTP.Types.Header.HeaderName,
+     Data.ByteString.Internal.ByteString)
+  {- Unfolding: ((Main.wakeMeUP9, Main.wakeMeUP8)) -}
+8d0b957f055b3fa96f36b481863c9720
+  wakeMeUP8 :: Data.ByteString.Internal.ByteString
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "text/plain"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 Data.ByteString.Internal.PS
+                   addr#
+                   (GHC.ForeignPtr.PlainForeignPtr ipv1)
+                   0#
+                   (GHC.Prim.word2Int# ds23) } }) -}
+e7ad1ddcff46a12e768fb5688b49bea5
+  wakeMeUP9 :: Network.HTTP.Types.Header.HeaderName
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds22 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "Content-Type"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds23 ->
+                 let {
+                   ipv2 :: GHC.ForeignPtr.ForeignPtrContents
+                   = GHC.ForeignPtr.PlainForeignPtr ipv1
+                 } in
+                 let {
+                   ipv3 :: GHC.Prim.Int# = GHC.Prim.word2Int# ds23
+                 } in
+                 case Data.CaseInsensitive.Internal.$wfoldCaseBS
+                        addr#
+                        ipv2
+                        0#
+                        ipv3 of dt1 { Data.ByteString.Internal.PS ipv4 ipv5 ipv6 ipv7 ->
+                 Data.CaseInsensitive.Internal.CI
+                   @ Data.ByteString.Internal.ByteString
+                   (Data.ByteString.Internal.PS addr# ipv2 0# ipv3)
+                   dt1 } } }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
